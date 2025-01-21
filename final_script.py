@@ -5,7 +5,7 @@ import Levenshtein
 from vosk import Model, KaldiRecognizer
 import wave
 
-# Speech Recognition Function
+# Speech recognition 
 def recognize_speech(audio_path, model_path):
     model = Model(model_path)
     wf = wave.open(audio_path, "rb")
@@ -20,14 +20,14 @@ def recognize_speech(audio_path, model_path):
     result = json.loads(recognizer.FinalResult())
     return result.get("text", "").strip()
 
-# Matching Predefined Answers
+# Matching predefined answers
 def match_predefined(recognized_text, predefined_answers):
     recognized_text_lower = recognized_text.lower()
     if recognized_text_lower in predefined_answers:
         return predefined_answers[recognized_text_lower]
     return None
 
-# Levenshtein Matching for Unmatched Words
+# Levenshtein matching algorithm for unmatched words
 def match_levenshtein_unmatched(recognized_text, predefined_answers):
     best_match = None
     best_score = float('inf')
@@ -38,7 +38,7 @@ def match_levenshtein_unmatched(recognized_text, predefined_answers):
             best_match = value
     return best_match
 
-# Select Random File from Random Folder
+# Select random file from random folder for testing
 def select_random_file(dataset_path):
     folder_list = [folder for folder in os.listdir(dataset_path) if os.path.isdir(os.path.join(dataset_path, folder))]
     if not folder_list:
@@ -51,14 +51,14 @@ def select_random_file(dataset_path):
     random_file = random.choice(file_list)
     return random_folder, os.path.join(folder_path, random_file)
 
-# Main Function
+
 def main():
-    # Define paths
     model_path = "models/vosk-model-small-en-us-0.15"
-    dataset_path = "test_dataset"  # Folder containing folders with audio files
+    # Folder containing folders with audio files
+    dataset_path = "test_dataset"  
     predefined_answers_path = "data/predefined_answers.json"
 
-    # Load predefined answers from JSON
+    # Loading predefined answers from JSON dictionary
     with open(predefined_answers_path, "r") as file:
         predefined_answers = json.load(file)
 
@@ -77,7 +77,7 @@ def main():
         if matched_answer:
             print(f"Matched Answer: {matched_answer}")
         else:
-            # If no match, try Levenshtein matching
+            # If no match, Levenshtein matching
             matched_answer = match_levenshtein_unmatched(recognized_text, predefined_answers)
             print(f"Matched using Levenshtein: {matched_answer}")
 

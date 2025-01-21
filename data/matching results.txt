@@ -1,0 +1,185 @@
+Results for 'blue':
+  Levenshtein Accuracy: 86.67%
+  Fuzzy Accuracy: 86.67%
+  Phonetic Accuracy: 86.67%
+  Combined Accuracy: 86.67%
+
+Results for 'eight':
+  Levenshtein Accuracy: 73.33%
+  Fuzzy Accuracy: 66.67%
+  Phonetic Accuracy: 66.67%
+  Combined Accuracy: 73.33%
+
+Results for 'eighteen':
+  Levenshtein Accuracy: 100.00%
+  Fuzzy Accuracy: 100.00%
+  Phonetic Accuracy: 100.00%
+  Combined Accuracy: 100.00%
+
+Results for 'eleven':
+  Levenshtein Accuracy: 100.00%
+  Fuzzy Accuracy: 100.00%
+  Phonetic Accuracy: 100.00%
+  Combined Accuracy: 100.00%
+
+Results for 'fifteen':
+  Levenshtein Accuracy: 100.00%
+  Fuzzy Accuracy: 100.00%
+  Phonetic Accuracy: 100.00%
+  Combined Accuracy: 100.00%
+
+Results for 'five':
+  Levenshtein Accuracy: 86.67%
+  Fuzzy Accuracy: 86.67%
+  Phonetic Accuracy: 80.00%
+  Combined Accuracy: 86.67%
+
+Results for 'four':
+  Levenshtein Accuracy: 96.67%
+  Fuzzy Accuracy: 90.00%
+  Phonetic Accuracy: 90.00%
+  Combined Accuracy: 90.00%
+
+Results for 'fourteen':
+  Levenshtein Accuracy: 100.00%
+  Fuzzy Accuracy: 100.00%
+  Phonetic Accuracy: 100.00%
+  Combined Accuracy: 100.00%
+
+Results for 'green':
+  Levenshtein Accuracy: 100.00%
+  Fuzzy Accuracy: 100.00%
+  Phonetic Accuracy: 100.00%
+  Combined Accuracy: 100.00%
+
+Results for 'high':
+  Levenshtein Accuracy: 100.00%
+  Fuzzy Accuracy: 100.00%
+  Phonetic Accuracy: 0.00%
+  Combined Accuracy: 100.00%
+
+Results for 'nine':
+  Levenshtein Accuracy: 93.33%
+  Fuzzy Accuracy: 93.33%
+  Phonetic Accuracy: 90.00%
+  Combined Accuracy: 93.33%
+
+Results for 'nineteen':
+  Levenshtein Accuracy: 100.00%
+  Fuzzy Accuracy: 100.00%
+  Phonetic Accuracy: 100.00%
+  Combined Accuracy: 100.00%
+
+Results for 'no':
+  Levenshtein Accuracy: 96.67%
+  Fuzzy Accuracy: 96.67%
+  Phonetic Accuracy: 96.67%
+  Combined Accuracy: 96.67%
+
+Results for 'normal':
+  Levenshtein Accuracy: 100.00%
+  Fuzzy Accuracy: 100.00%
+  Phonetic Accuracy: 100.00%
+  Combined Accuracy: 100.00%
+
+Results for 'one':
+  Levenshtein Accuracy: 90.00%
+  Fuzzy Accuracy: 90.00%
+  Phonetic Accuracy: 90.00%
+  Combined Accuracy: 90.00%
+
+Results for 'red':
+  Levenshtein Accuracy: 100.00%
+  Fuzzy Accuracy: 100.00%
+  Phonetic Accuracy: 100.00%
+  Combined Accuracy: 100.00%
+
+Results for 'seven':
+  Levenshtein Accuracy: 83.33%
+  Fuzzy Accuracy: 80.00%
+  Phonetic Accuracy: 80.00%
+  Combined Accuracy: 83.33%
+
+Results for 'seventeen':
+  Levenshtein Accuracy: 100.00%
+  Fuzzy Accuracy: 100.00%
+  Phonetic Accuracy: 100.00%
+  Combined Accuracy: 100.00%
+
+Results for 'six':
+  Levenshtein Accuracy: 96.67%
+  Fuzzy Accuracy: 96.67%
+  Phonetic Accuracy: 86.67%
+  Combined Accuracy: 96.67%
+
+Results for 'sixteen':
+  Levenshtein Accuracy: 100.00%
+  Fuzzy Accuracy: 100.00%
+  Phonetic Accuracy: 100.00%
+  Combined Accuracy: 100.00%
+
+Results for 'ten':
+  Levenshtein Accuracy: 100.00%
+  Fuzzy Accuracy: 100.00%
+  Phonetic Accuracy: 100.00%
+  Combined Accuracy: 100.00%
+
+Results for 'thirteen':
+  Levenshtein Accuracy: 100.00%
+  Fuzzy Accuracy: 100.00%
+  Phonetic Accuracy: 100.00%
+  Combined Accuracy: 100.00%
+
+Results for 'three':
+  Levenshtein Accuracy: 86.67%
+  Fuzzy Accuracy: 86.67%
+  Phonetic Accuracy: 86.67%
+  Combined Accuracy: 86.67%
+
+Results for 'twelve':
+  Levenshtein Accuracy: 100.00%
+  Fuzzy Accuracy: 100.00%
+  Phonetic Accuracy: 100.00%
+  Combined Accuracy: 100.00%
+
+Results for 'twenty':
+  Levenshtein Accuracy: 100.00%
+  Fuzzy Accuracy: 100.00%
+  Phonetic Accuracy: 100.00%
+  Combined Accuracy: 100.00%
+
+Results for 'two':
+  Levenshtein Accuracy: 96.67%
+  Fuzzy Accuracy: 96.67%
+  Phonetic Accuracy: 96.67%
+  Combined Accuracy: 96.67%
+
+Results for 'white':
+  Levenshtein Accuracy: 100.00%
+  Fuzzy Accuracy: 100.00%
+  Phonetic Accuracy: 100.00%
+  Combined Accuracy: 100.00%
+
+Results for 'yellow':
+  Levenshtein Accuracy: 100.00%
+  Fuzzy Accuracy: 100.00%
+  Phonetic Accuracy: 100.00%
+  Combined Accuracy: 100.00%
+
+Results for 'yes':
+  Levenshtein Accuracy: 100.00%
+  Fuzzy Accuracy: 100.00%
+  Phonetic Accuracy: 100.00%
+  Combined Accuracy: 100.00%
+
+Results for 'zero':
+  Levenshtein Accuracy: 80.00%
+  Fuzzy Accuracy: 80.00%
+  Phonetic Accuracy: 73.33%
+  Combined Accuracy: 80.00%
+
+Average Accuracy Across All Folders:
+  Levenshtein: 95.56%
+  Fuzzy: 95.00%
+  Phonetic: 90.78%
+  Combined: 95.33%

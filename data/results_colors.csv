@@ -1,0 +1,8 @@
+Folder,Target,Accuracy,Correct Predictions,Total Files
+blue,blue,85.7,1714,2000
+green,green,100.0,2000,2000
+high,high,0.0,0,2000
+normal,normal,0.0,0,2000
+red,red,0.0,0,2000
+white,white,100.0,2000,2000
+yellow,yellow,0.0,0,2000

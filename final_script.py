@@ -1,6 +1,7 @@
 import os
 import random
 import json
+import vosk
 import Levenshtein
 from vosk import Model, KaldiRecognizer
 import wave
@@ -8,6 +9,7 @@ import wave
 # Speech recognition 
 def recognize_speech(audio_path, model_path):
     model = Model(model_path)
+    vosk.SetLogLevel(-1)
     wf = wave.open(audio_path, "rb")
     if wf.getnchannels() != 1 or wf.getsampwidth() != 2 or wf.getframerate() != 16000:
         raise ValueError("Audio file must be mono, 16-bit PCM, and 16 kHz.")
